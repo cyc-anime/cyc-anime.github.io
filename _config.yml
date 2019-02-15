@@ -8,6 +8,7 @@ github_username: xCryptic
 paginate: 5
 
 # Build settings
+timezone: America/New_York
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
