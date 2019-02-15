@@ -2,7 +2,7 @@
 layout: anime
 
 title: Bokura wa Minna Kawaisou
-image: http://4.bp.blogspot.com/-vpuLlUSFLvY/VkD_uenfYTI/AAAAAAAAAEc/aEqSYPpH46Q/s1600/Bokura%2Bwa%2Bminna%2BKawaisou%2Bvlcsnap-2014-04-04-13h50m26s37.png
+image: https://i.imgur.com/nwg4ASj.png
 mal: 21405
 anidb: 10288
 r720: false

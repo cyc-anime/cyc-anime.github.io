@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Updates"
+date:   2019-02-14 22:45:00 -0500
+categories: general
+---
+I have added the first anime page that will have additional information about the anime. Go check it out on the [projects page](https://cyc-anime.github.io/projects) :)
