@@ -15,11 +15,11 @@
 		<p>{{ page.desc }}</p>
 
 		{% if page.issues %}
-		<h2>Issues</h2>
-		<p>{{ page.issues }}</p>
+			<h2>Issues</h2>
+			<p>{{ page.issues }}</p>
 		{% endif %}
 
-		<img src="https://kametsu.com/images/downloads/info.png" alt="info">
+		<img src="{{ prepend: site.baseurl | prepend: site.url }}/images/info.png" alt="info">
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
 			<p>
 				Status: {{ page.status }}<br>
@@ -33,55 +33,53 @@
 					<b>720p</b><br>
 					Audio Track 1: {{ page.audio720a }}<br>
 					{% if page.audio720b %}
-					Audio Track 2: {{ page.audio720b }}<br>
+						Audio Track 2: {{ page.audio720b }}<br>
 					{% endif %}
 
 					<b>1080p</b><br>
 					Audio Track 1: {{ page.audio1080a }}<br>
 					{% if page.audio1080b %}
-					Audio Track 2: {{ page.audio1080b }}<br>
+						Audio Track 2: {{ page.audio1080b }}<br>
 					{% endif %}
 				{% elsif page.r720 %}
-					<b>720p</b><br>
 					Audio Track 1: {{ page.audio720a }}<br>
 					{% if page.audio720b %}
-					Audio Track 2: {{ page.audio720b }}<br>
+						Audio Track 2: {{ page.audio720b }}<br>
 					{% endif %}
 				{% elsif page.r1080 %}
-					<b>1080p</b><br>
 					Audio Track 1: {{ page.audio1080a }}<br>
 					{% if page.audio1080b %}
-					Audio Track 2: {{ page.audio1080b }}<br>
+						Audio Track 2: {{ page.audio1080b }}<br>
 					{% endif %}
 				{% endif %}
 
 				Subtitle Track 1: {{ page.subtitle1 }}
 				{% if page.subtitle2 %}
-				<br>Subtitle Track 2: {{ page.subtitle2 }}
+					<br>Subtitle Track 2: {{ page.subtitle2 }}
 				{% endif %}
 			</p>
 			{% if page.r1080 and page.r720 %}
-			{% assign allcontent = content | split: "===" %}
-			<b>720p</b>
-			<details>
-				<summary>MediaInfo</summary>
-				<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
-			</details>
-			<br>
-			<b>1080p</b>
-			<details>
-				<summary>MediaInfo</summary>
-				<pre style="margin-bottom: 0px;">{{ allcontent.last }}</pre>
-			</details>
+				{% assign allcontent = content | split: "===" %}
+				<b>720p</b>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
+				</details>
+				<br>
+				<b>1080p</b>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ allcontent.last }}</pre>
+				</details>
 			{% else %}
-			<details>
-				<summary>MediaInfo</summary>
-				<pre style="margin-bottom: 0px;">{{ content }}</pre>
-			</details>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ content }}</pre>
+				</details>
 			{% endif %}
 		</section>
 		<br>
-		<img src="https://kametsu.com/images/downloads/download.png" alt="download">
+		<img src="{{ prepend: site.baseurl | prepend: site.url }}/images/download.png" alt="download">
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
 			{% if page.r1080 and page.r720 %}
 				<h3 style="margin: 0px;">720p</h3>
