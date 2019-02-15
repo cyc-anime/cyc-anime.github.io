@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+
+	<main id="content" class="main-content" role="main">
+		<h1 style="text-align: center;">{{ page.title }}</h1>
+		<p style="text-align: center;"><img src="{{ page.image }}" /><br>
+			<a href="https://myanimelist.net/anime/{{ page.mal }}">MAL</a> | <a href="https://anidb.net/a{{ page.anidb }}">aniDB</a>
+		</p>
+		<h2 style="margin-top: 1rem;">Overview</h2>
+		<p>{{ page.desc }}</p>
+
+		{% if page.issues %}
+		<h2>Issues</h2>
+		<p>{{ page.issues }}</p>
+		{% endif %}
+
+		<img src="https://kametsu.com/images/downloads/info.png" alt="info">
+		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
+			<p>
+				Status: {{ page.status }}<br>
+				Associated Groups: {{ page.groups }}<br>
+				File Size: {{ page.size }}<br>
+				Video Info: {{ page.vidinfo }}
+			</p>
+
+			<p>
+				{% if page.r720 and page.r1080 %}
+					<b>720p</b><br>
+					Audio Track 1: {{ page.audio720a }}<br>
+					{% if page.audio720b %}
+					Audio Track 2: {{ page.audio720b }}<br>
+					{% endif %}
+
+					<b>1080p</b><br>
+					Audio Track 1: {{ page.audio1080a }}<br>
+					{% if page.audio1080b %}
+					Audio Track 2: {{ page.audio1080b }}<br>
+					{% endif %}
+				{% elsif page.r720 %}
+					<b>720p</b><br>
+					Audio Track 1: {{ page.audio720a }}<br>
+					{% if page.audio720b %}
+					Audio Track 2: {{ page.audio720b }}<br>
+					{% endif %}
+				{% elsif page.r1080 %}
+					<b>1080p</b><br>
+					Audio Track 1: {{ page.audio1080a }}<br>
+					{% if page.audio1080b %}
+					Audio Track 2: {{ page.audio1080b }}<br>
+					{% endif %}
+				{% endif %}
+
+				Subtitle Track 1: {{ page.subtitle1 }}
+				{% if page.subtitle2 %}
+				<br>Subtitle Track 2: {{ page.subtitle2 }}
+				{% endif %}
+			</p>
+			{% if page.r1080 and page.r720 %}
+			{% assign allcontent = content | split: "===" %}
+			<b>720p</b>
+			<details>
+				<summary>MediaInfo</summary>
+				<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
+			</details>
+			<br>
+			<b>1080p</b>
+			<details>
+				<summary>MediaInfo</summary>
+				<pre style="margin-bottom: 0px;">{{ allcontent.last }}</pre>
+			</details>
+			{% else %}
+			<details>
+				<summary>MediaInfo</summary>
+				<pre style="margin-bottom: 0px;">{{ content }}</pre>
+			</details>
+			{% endif %}
+		</section>
+		<br>
+		<img src="https://kametsu.com/images/downloads/download.png" alt="download">
+		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
+			{% if page.r1080 and page.r720 %}
+				<h3 style="margin: 0px;">720p</h3>
+				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<p style="margin: 5px 0px 0px 0px;">
+					{% if page.github720 %}
+						<a href="{{ page.github720 }}">Github</a> |
+					{% endif %}
+					{% if page.nyaa720 %}
+						<a href="{{ page.nyaa720 }}">Nyaa</a> |
+					{% endif %}
+					{% if page.anidex720 %}
+						<a href="{{ page.anidex720 }}">AniDex</a> |
+					{% endif %}
+					{% if page.at720 %}
+						<a href="{{ page.at720 }}">Animetosho</a> |
+					{% endif %}
+					{% if page.ant720 %}
+						<a href="{{ page.ant720 }}">AnT</a> {% if page.ab720 %}|{% endif %}
+					{% endif %}
+					{% if page.ab720 %}
+						<a href="{{ page.ab720 }}">AB</a> {% if page.abs720 %}|{% endif %}
+					{% endif %}
+					{% if page.abs720 %}
+						<a href="{{ page.abs720 }}">AB ({{ page.abstype720 }})</a>
+					{% endif %}
+				</p>
+				<br>
+				<h3 style="margin: 0px;">1080p</h3>
+				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<p style="margin: 5px 0px 0px 0px;">
+					{% if page.github1080 %}
+						<a href="{{ page.github1080 }}">Github</a> |
+					{% endif %}
+					{% if page.nyaa1080 %}
+						<a href="{{ page.nyaa1080 }}">Nyaa</a> |
+					{% endif %}
+					{% if page.anidex1080 %}
+						<a href="{{ page.anidex1080 }}">AniDex</a> |
+					{% endif %}
+					{% if page.at1080 %}
+						<a href="{{ page.at1080 }}">Animetosho</a> |
+					{% endif %}
+					{% if page.ant1080 %}
+						<a href="{{ page.ant1080 }}">AnT</a> {% if page.ab1080 %}|{% endif %}
+					{% endif %}
+					{% if page.ab1080 %}
+						<a href="{{ page.ab1080 }}">AB</a> {% if page.abs1080 %}|{% endif %}
+					{% endif %}
+					{% if page.abs1080 %}
+						<a href="{{ page.abs1080 }}">AB ({{ page.abstype1080 }})</a>
+					{% endif %}
+				</p>
+			{% elsif page.r720 %}
+				<h3 style="margin: 0px;">720p</h3>
+				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<p style="margin: 5px 0px 0px 0px;">
+					{% if page.github720 %}
+						<a href="{{ page.github720 }}">Github</a> |
+					{% endif %}
+					{% if page.nyaa720 %}
+						<a href="{{ page.nyaa720 }}">Nyaa</a> |
+					{% endif %}
+					{% if page.anidex720 %}
+						<a href="{{ page.anidex720 }}">AniDex</a> |
+					{% endif %}
+					{% if page.at720 %}
+						<a href="{{ page.at720 }}">Animetosho</a> |
+					{% endif %}
+					{% if page.ant720 %}
+						<a href="{{ page.ant720 }}">AnT</a> {% if page.ab720 %}|{% endif %}
+					{% endif %}
+					{% if page.ab720 %}
+						<a href="{{ page.ab720 }}">AB</a> {% if page.abs720 %}|{% endif %}
+					{% endif %}
+					{% if page.abs720 %}
+						<a href="{{ page.abs720 }}">AB ({{ page.abstype720 }})</a>
+					{% endif %}
+				</p>
+			{% elsif page.r1080 %}
+				<h3 style="margin: 0px;">1080p</h3>
+					<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+					<p style="margin: 5px 0px 0px 0px;">
+						{% if page.github1080 %}
+							<a href="{{ page.github1080 }}">Github</a> |
+						{% endif %}
+						{% if page.nyaa1080 %}
+							<a href="{{ page.nyaa1080 }}">Nyaa</a> |
+						{% endif %}
+						{% if page.anidex1080 %}
+							<a href="{{ page.anidex1080 }}">AniDex</a> |
+						{% endif %}
+						{% if page.at1080 %}
+							<a href="{{ page.at1080 }}">Animetosho</a> |
+						{% endif %}
+						{% if page.ant1080 %}
+							<a href="{{ page.ant1080 }}">AnT</a> {% if page.ab1080 %}|{% endif %}
+						{% endif %}
+						{% if page.ab1080 %}
+							<a href="{{ page.ab1080 }}">AB</a> {% if page.abs1080 %}|{% endif %}
+						{% endif %}
+						{% if page.abs1080 %}
+							<a href="{{ page.abs1080 }}">AB ({{ page.abstype1080 }})</a>
+						{% endif %}
+					</p>
+			{% endif %}
+		</section>
+</body>
+
+</html>
