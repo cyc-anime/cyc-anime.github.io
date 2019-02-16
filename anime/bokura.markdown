@@ -25,6 +25,8 @@ ant1080: https://animetorrents.me/torrent-details.php?torid=38970
 ab1080: https://animebytes.tv/torrents.php?id=18293&torrentid=387244
 abs1080: https://animebytes.tv/torrents.php?id=22955&torrentid=387246
 abstype1080: Special
+
+github: https://github.com/cyc-anime/bokura-wa-minna-kawaisou
 ---
 General
 Unique ID                                : 252031159976662598640100460257320814264 (0xBD9B6F900CA9E165AC72CA917966C6B8)
