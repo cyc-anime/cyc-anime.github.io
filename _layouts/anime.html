@@ -19,7 +19,7 @@
 			<p>{{ page.issues }}</p>
 		{% endif %}
 
-		<img src="{{ prepend: site.baseurl | prepend: site.url }}/images/info.png" alt="info">
+		<img src="{{ site.url }}/images/info.png" alt="info">
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
 			<p>
 				Status: {{ page.status }}<br>
@@ -93,7 +93,7 @@
 			{% endif %}
 		</section>
 		<br>
-		<img src="{{ prepend: site.baseurl | prepend: site.url }}/images/download.png" alt="download">
+		<img src="{{ site.url }}/images/download.png" alt="download">
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
 			{% if page.r1080 and page.r720 %}
 				<h3 style="margin: 0px;">720p</h3>
