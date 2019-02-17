@@ -15,7 +15,7 @@ desc: >-
 
 status: Complete
 groups: Beatrice-Raws, SallySubs
-size: ~3 GB / Episode @ 1080p (1920x1080)
+size1080: ~3 GB / Episode @ 1080p (1920x1080)
 vidinfo: .mkv, h264 10-bit
 
 audio1080a: Japanese 2.0ch FLAC (Main Dialogue)

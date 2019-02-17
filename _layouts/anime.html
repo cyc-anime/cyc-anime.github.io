@@ -23,39 +23,53 @@
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
 			<p>
 				Status: {{ page.status }}<br>
-				Associated Groups: {{ page.groups }}<br>
-				File Size: {{ page.size }}<br>
+				Affiliated Groups: {{ page.groups }}<br>
 				Video Info: {{ page.vidinfo }}
 			</p>
 
 			<p>
 				{% if page.r720 and page.r1080 %}
 					<b>720p</b><br>
+					File Size: {{ page.size720 }}<br>
 					Audio Track 1: {{ page.audio720a }}<br>
 					{% if page.audio720b %}
 						Audio Track 2: {{ page.audio720b }}<br>
 					{% endif %}
-
+					Subtitle Track 1: {{ page.subtitle1 }}
+					{% if page.subtitle2 %}
+						<br>Subtitle Track 2: {{ page.subtitle2 }}
+					{% endif %}
+					<br><br>
 					<b>1080p</b><br>
+					File Size: {{ page.size1080 }}<br>
 					Audio Track 1: {{ page.audio1080a }}<br>
 					{% if page.audio1080b %}
 						Audio Track 2: {{ page.audio1080b }}<br>
+					{% endif %}
+					Subtitle Track 1: {{ page.subtitle1 }}
+					{% if page.subtitle2 %}
+						<br>Subtitle Track 2: {{ page.subtitle2 }}
 					{% endif %}
 				{% elsif page.r720 %}
+				File Size: {{ page.size720 }}<br>
 					Audio Track 1: {{ page.audio720a }}<br>
 					{% if page.audio720b %}
 						Audio Track 2: {{ page.audio720b }}<br>
 					{% endif %}
+					Subtitle Track 1: {{ page.subtitle1 }}
+					{% if page.subtitle2 %}
+						<br>Subtitle Track 2: {{ page.subtitle2 }}
+					{% endif %}
 				{% elsif page.r1080 %}
+					File Size: {{ page.size1080 }}<br>
 					Audio Track 1: {{ page.audio1080a }}<br>
 					{% if page.audio1080b %}
 						Audio Track 2: {{ page.audio1080b }}<br>
 					{% endif %}
-				{% endif %}
-
-				Subtitle Track 1: {{ page.subtitle1 }}
-				{% if page.subtitle2 %}
-					<br>Subtitle Track 2: {{ page.subtitle2 }}
+					Subtitle Track 1: {{ page.subtitle1 }}
+					{% if page.subtitle2 %}
+						<br>Subtitle Track 2: {{ page.subtitle2 }}
+					{% endif %}
 				{% endif %}
 			</p>
 			{% if page.r1080 and page.r720 %}
@@ -65,7 +79,7 @@
 					<summary>MediaInfo</summary>
 					<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
 				</details>
-				<br>
+
 				<b>1080p</b>
 				<details>
 					<summary>MediaInfo</summary>
