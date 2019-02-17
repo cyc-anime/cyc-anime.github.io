@@ -2,21 +2,24 @@
 layout: anime
 
 title: Bokura wa Minna Kawaisou
-image: https://i.imgur.com/nwg4ASj.png
+image: https://i.imgur.com/hiyp4Bb.jpg
 mal: 21405
 anidb: 10288
 r720: false
 r1080: true
 
-desc: This release uses Beatrice-Raws for the video and audio. Subtitles come from SallySubs. Since this release is a QuickMux, the only thing I did was sync the subs to the video.
+desc: >-
+  This show was recommended to me by a friend saying it's relaxing and quite humorous. Which it is, though it does contain a few annoying tropes. Looking past that, it's actually pretty good.
+  <br><br>
+  I took beatrice's raws and muxed them with sallysubs. I didn't do much to the subs, just sync'd and added the english title to the op since only ep9 and ep12 (I think) had it for some reason.
 
 status: Complete
 groups: Beatrice-Raws, SallySubs
-size: ~3 GB/Episode @ 1080p (1920x1080)
+size: ~3 GB / Episode @ 1080p (1920x1080)
 vidinfo: .mkv, h264 10-bit
 
-audio1080a: Japanese 2.0 FLAC [Default]
-subtitle1: English Dialogue (SallySubs) [Default]
+audio1080a: Japanese 2.0ch FLAC (Main Dialogue)
+subtitle1: English Dialogue (.ass) [SallySubs]
 
 nyaa1080: https://nyaa.si/view/1082442
 anidex1080: https://anidex.info/torrent/190484
