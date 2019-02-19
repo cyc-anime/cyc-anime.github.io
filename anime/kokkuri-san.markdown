@@ -15,11 +15,11 @@ desc: >-
 
 status: Complete
 groups: Beatrice-Raws, Doki
-size1080: ~950 MB / Episode @ 1080p (1920x1080)
 vidinfo: .mkv, h264 10-bit
 
-audio1080a: Japanese 2.0ch FLAC (Main Dialogue)
-subtitle1: English Dialogue (.ass) [SallySubs]
+size1080: ~950 MB / Episode @ 1080p (1920x1080) [Beatrice-Raws]
+audio1080a: Japanese 2.0ch FLAC (Main Dialogue) [Beatrice-Raws]
+subtitle1: English Dialogue (.ass) [Doki]
 
 nyaa1080: https://nyaa.si/view/1015148
 anidex1080: https://anidex.info/torrent/128067
