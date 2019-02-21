@@ -27,8 +27,9 @@
 				Video Info: {{ page.vidinfo }}
 			</p>
 
-			<p>
-				{% if page.r720 and page.r1080 %}
+			{% if page.r720 and page.r1080 %}
+				{% assign allcontent = content | split: "===" %}
+				<p>
 					<b>720p</b><br>
 					File Size: {{ page.size720 }}<br>
 					Audio Track 1: {{ page.audio720a }}<br>
@@ -48,7 +49,13 @@
 					{% if page.subtitle4 %}
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
-					<br><br>
+				</p>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
+				</details>
+
+				<p>
 					<b>1080p</b><br>
 					File Size: {{ page.size1080 }}<br>
 					Audio Track 1: {{ page.audio1080a }}<br>
@@ -68,8 +75,15 @@
 					{% if page.subtitle4 %}
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
-				{% elsif page.r720 %}
-				File Size: {{ page.size720 }}<br>
+				</p>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ allcontent.last }}</pre>
+				</details>
+
+			{% elsif page.r720 %}
+				<p>
+					File Size: {{ page.size720 }}<br>
 					Audio Track 1: {{ page.audio720a }}<br>
 					{% if page.audio720b %}
 						Audio Track 2: {{ page.audio720b }}<br>
@@ -87,7 +101,13 @@
 					{% if page.subtitle4 %}
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
-				{% elsif page.r1080 %}
+				</p>
+				<details>
+					<summary>MediaInfo</summary>
+					<pre style="margin-bottom: 0px;">{{ content }}</pre>
+				</details>
+			{% elsif page.r1080 %}
+				<p>
 					File Size: {{ page.size1080 }}<br>
 					Audio Track 1: {{ page.audio1080a }}<br>
 					{% if page.audio1080b %}
@@ -106,22 +126,7 @@
 					{% if page.subtitle4 %}
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
-				{% endif %}
-			</p>
-			{% if page.r1080 and page.r720 %}
-				{% assign allcontent = content | split: "===" %}
-				<b>720p</b>
-				<details>
-					<summary>MediaInfo</summary>
-					<pre style="margin-bottom: 0px;">{{ allcontent.first }}</pre>
-				</details>
-
-				<b>1080p</b>
-				<details>
-					<summary>MediaInfo</summary>
-					<pre style="margin-bottom: 0px;">{{ allcontent.last }}</pre>
-				</details>
-			{% else %}
+				</p>
 				<details>
 					<summary>MediaInfo</summary>
 					<pre style="margin-bottom: 0px;">{{ content }}</pre>
@@ -202,27 +207,27 @@
 				</p>
 			{% elsif page.r1080 %}
 				<h3 style="margin: 0px;">1080p</h3>
-					<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
-					<p style="margin: 5px 0px 0px 0px;">
-						{% if page.nyaa1080 %}
-							<a href="{{ page.nyaa1080 }}">Nyaa</a> |
-						{% endif %}
-						{% if page.anidex1080 %}
-							<a href="{{ page.anidex1080 }}">AniDex</a> |
-						{% endif %}
-						{% if page.at1080 %}
-							<a href="{{ page.at1080 }}">Animetosho</a> |
-						{% endif %}
-						{% if page.ant1080 %}
-							<a href="{{ page.ant1080 }}">AnT</a> {% if page.ab1080 %}|{% endif %}
-						{% endif %}
-						{% if page.ab1080 %}
-							<a href="{{ page.ab1080 }}">AB</a> {% if page.abs1080 %}|{% endif %}
-						{% endif %}
-						{% if page.abs1080 %}
-							<a href="{{ page.abs1080 }}">AB ({{ page.abstype1080 }})</a>
-						{% endif %}
-					</p>
+				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<p style="margin: 5px 0px 0px 0px;">
+					{% if page.nyaa1080 %}
+						<a href="{{ page.nyaa1080 }}">Nyaa</a> |
+					{% endif %}
+					{% if page.anidex1080 %}
+						<a href="{{ page.anidex1080 }}">AniDex</a> |
+					{% endif %}
+					{% if page.at1080 %}
+						<a href="{{ page.at1080 }}">Animetosho</a> |
+					{% endif %}
+					{% if page.ant1080 %}
+						<a href="{{ page.ant1080 }}">AnT</a> {% if page.ab1080 %}|{% endif %}
+					{% endif %}
+					{% if page.ab1080 %}
+						<a href="{{ page.ab1080 }}">AB</a> {% if page.abs1080 %}|{% endif %}
+					{% endif %}
+					{% if page.abs1080 %}
+						<a href="{{ page.abs1080 }}">AB ({{ page.abstype1080 }})</a>
+					{% endif %}
+				</p>
 			{% endif %}
 			{% if page.github %}
 				<h3 style="margin: 15px 0px 0px 0px;">Subtitles/Attachments</h3>
