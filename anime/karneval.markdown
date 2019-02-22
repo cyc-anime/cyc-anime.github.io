@@ -18,13 +18,15 @@ groups: SCY, Etzimal, Anime-Koi, coldhell
 vidinfo: .mkv, h264 10-bit
 
 size720: ~1 GB / Episode @ 720p (1280x720) [SCY]
-size1080: ~1.2 GB / Episode @ 1080p (1920x1080)
 audio720a: English 6ch AAC (Main Dialogue) [Etzimal]
 audio720b: Japanese 2ch AAC (Main Dialogue) [SCY]
 audio720c: English 2ch AAC (Commentary Ep. 1 & 12) [Etzimal]
+
+size1080: ~1.2 GB / Episode @ 1080p (1920x1080)
 audio1080a: English 6ch FLAC (Main Dialogue) [Etzimal]
 audio1080b: Japanese 2ch FLAC (Main Dialogue) [SCY]
 audio1080c: English 2ch FLAC (Commentary Ep. 1 & 12) [Etzimal]
+
 subtitle1: Signs/Songs (.ass) [(CyC & coldhell Modified) [Anime-Koi]
 subtitle2: English Dialogue (.ass) [(CyC & coldhell Modified) [Anime-Koi]
 
