@@ -136,7 +136,60 @@
 		<br>
 		<img src="/images/download.png" alt="download">
 		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
-			{% if page.r1080 and page.r720 %}
+			{% if page.links %}
+				{% for item in page.links %}
+					{% if forloop.first %}
+						<h3 style="margin: 0px;">{{ item[0] }}</h3>
+					{% else %}
+						<h3 style="margin: 15px 0px 0px 0px;">{{ item[0] }}</h3>
+					{% endif %}
+					<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+					<p style="margin: 5px 0px 0px 0px;">
+						{% if item[forloop.index0] == "OVAs" %}
+							{% for items in item %}
+								{{ items[0] }}
+								{% if items[1] %}
+									<a href="{{ items[1] }}">Nyaa</a> |
+								{% endif %}
+								{% if items[2] %}
+									<a href="{{ items[2] }}">AniDex</a> |
+								{% endif %}
+								{% if items[3] %}
+									<a href="{{ items[3] }}">Animetosho</a> |
+								{% endif %}
+								{% if items[4] %}
+									<a href="{{ items[4] }}">AnT</a> {% if items[5] %}|{% endif %}
+								{% endif %}
+								{% if items[5] %}
+									<a href="{{ items[5] }}">AB</a> {% if items[6] %}|{% endif %}
+								{% endif %}
+								{% if forloop.last != true and forloop.first != true %}
+									<br>
+								{% endif %}
+							{% endfor %}
+						{% else %}
+							{% if item[1] %}
+								<a href="{{ item[1] }}">Nyaa</a> |
+							{% endif %}
+							{% if item[2] %}
+								<a href="{{ item[2] }}">AniDex</a> |
+							{% endif %}
+							{% if item[3] %}
+								<a href="{{ item[3] }}">Animetosho</a> |
+							{% endif %}
+							{% if item[4] %}
+								<a href="{{ item[4] }}">AnT</a> {% if item[5] %}|{% endif %}
+							{% endif %}
+							{% if item[5] %}
+								<a href="{{ item[5] }}">AB</a> {% if item[6] %}|{% endif %}
+							{% endif %}
+							{% if item[6] %}
+								<a href="{{ item[6] }}">AB ({{ item[7] }})</a>
+							{% endif %}
+						{% endif %}
+					</p>
+				{% endfor %}
+			{% elsif page.r1080 and page.r720 %}
 				<h3 style="margin: 0px;">720p</h3>
 				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
 				<p style="margin: 5px 0px 0px 0px;">
