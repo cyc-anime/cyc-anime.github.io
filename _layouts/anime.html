@@ -8,7 +8,10 @@
 
 	<main id="content" class="main-content" role="main">
 		<h1 style="text-align: center;">{{ page.title }}</h1>
-		<p style="text-align: center;"><img src="{{ page.image }}" /><br>
+		<p style="text-align: center;"><img src="{{ page.image }}" />
+			{% if page.sub %}
+				<span style="font-size: 8px; display: table; margin: 0 auto;">{{ page.sub }}</span>
+			{% endif %}
 			<a href="https://myanimelist.net/anime/{{ page.mal }}">MAL</a> | <a href="https://anidb.net/a{{ page.anidb }}">aniDB</a>
 		</p>
 		<h2 style="margin-top: 1rem;">Overview</h2>

@@ -1,0 +1,130 @@
+---
+layout: anime
+
+title: R-15
+image: https://rei.animecharactersdatabase.com/uploads/chars/19511-581396443.jpg
+sub: this image tells the entire story of the show... I think
+mal: 10611
+anidb: 8396
+r720: false
+r1080: true
+
+desc: >-
+  So... I have no idea what I'm getting myself into. I'm not the type of person to watch harems, but for some reason I'm going into this one... probably to remind myself how bad they are
+  <br><br>
+  Anyways, I couldn't find anything great here on this show, and I somehow managed to get Yousei-raw's even though the torrent was pretty much dead (I actually found a re-upload on dtdb). I then got Kira-Fansubs and synced them with Yousei-raw's (hopefully it's all good, I only did slight qc)
+  <br><br>
+  This release is an older one, so it didn't get uploaded in very many places. For DDL links, visit <a href="https://nanda.to/">nanda.to</a>
+
+status: Complete
+groups: Yousei-raws, Kira-Fansub
+vidinfo: .mkv, h264 10-bit
+
+size1080: ~1.6 GB / Episode @ 1080p (1920x1080) [Yousei-Raws]
+audio1080a: Japanese 2ch FLAC (Main Dialogue) [Yousei-Raws]
+subtitle1: English Dialogue with KFX (.ASS) [Kira-Fansubs]
+subtitle2: English Dialogue without KFX (.ASS) [Kira-Fansubs]
+
+ab1080: https://animebytes.tv/torrents.php?id=8383&torrentid=342638
+abs1080: https://animebytes.tv/torrents.php?id=9260&torrentid=352987
+abstype1080: Special
+
+github: https://github.com/cyc-anime/R-15
+---
+General
+Unique ID                                : 225526519474112118015575091247646029460 (0xA9AAD3E4DBEC62F9BF713A6C85FCB694)
+Complete name                            : [CyC] R-15 01 (BD 1920x1080 x264 FLAC) [F4B6789F].mkv
+Format                                   : Matroska
+Format version                           : Version 4 / Version 2
+File size                                : 1.69 GiB
+Duration                                 : 24 min 42 s
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 9 811 kb/s
+Movie name                               : Welcome to Inspiration Academy!
+Encoded date                             : UTC 2017-09-04 23:52:31
+Writing application                      : mkvmerge v9.7.1 ('Pandemonium') 64bit
+Writing library                          : libebml v1.3.4 + libmatroska v1.4.5
+Attachments                              : 123Marker.ttf / Agenda-MediumItalic.ttf / ANA-ONEIROPARMENI82.TTF / A-OTF-BokutohNStd-DeBold.otf / A-OTF-KaishoMCBK1Pro-DeBold.otf / arial.ttf / Bengotbi.ttf / Bengothb.ttf / Bengothn.ttf / Bengotni.ttf / Brady Bunch.ttf / budhand.ttf / cac_moose.ttf / carolingia.ttf / CHINACATTHIN.TTF / Chinela Brush.ttf / CT_Mercurius.ttf / DFGPOP2-9_Amagami.ttf / dupree.ttf / Flora_for_Mexicans.ttf / HGSSoeiMarupoptai.ttf / MAIAN.TTF / TT1139M.TTF
+
+Video
+ID                                       : 1
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : High 10@L4.1
+Format settings, CABAC                   : Yes
+Format settings, RefFrames               : 4 frames
+Codec ID                                 : V_MPEG4/ISO/AVC
+Duration                                 : 24 min 28 s
+Bit rate                                 : 9 052 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 1 080 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Constant
+Frame rate                               : 23.976 (24000/1001) FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 10 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 0.182
+Stream size                              : 1.55 GiB (91%)
+Writing library                          : x264 core 120 r2146M bcd41db
+Encoding settings                        : cabac=1 / ref=4 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=9 / psy=1 / psy_rd=0.80:0.00 / mixed_ref=1 / me_range=24 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=12 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=8 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc=2pass / mbtree=0 / bitrate=9052 / ratetol=1.0 / qcomp=0.70 / qpmin=15 / qpmax=52 / qpstep=4 / cplxblur=20.0 / qblur=0.5 / ip_ratio=1.40 / pb_ratio=1.30 / aq=1:0.90
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Audio
+ID                                       : 2
+Format                                   : FLAC
+Format/Info                              : Free Lossless Audio Codec
+Codec ID                                 : A_FLAC
+Duration                                 : 24 min 28 s
+Bit rate mode                            : Variable
+Bit rate                                 : 728 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 11.719 FPS (4096 SPF)
+Bit depth                                : 16 bits
+Stream size                              : 127 MiB (7%)
+Writing library                          : libFLAC 1.2.1 (UTC 2007-09-17)
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Text #1
+ID                                       : 3
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 24 min 42 s
+Bit rate                                 : 1 919 b/s
+Count of elements                        : 3133
+Compression mode                         : Lossless
+Stream size                              : 347 KiB (0%)
+Title                                    : [Kira-Fansub] Subtitles with KFX
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #2
+ID                                       : 4
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 24 min 42 s
+Bit rate                                 : 376 b/s
+Count of elements                        : 725
+Compression mode                         : Lossless
+Stream size                              : 68.2 KiB (0%)
+Title                                    : [Kira-Fansub] Subtitles Only/No KFX
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Menu
+00:00:00.000                             : en:Intro
+00:00:46.087                             : en:Opening
+00:02:16.177                             : en:Part A
+00:12:57.818                             : en:Part B
+00:22:32.392                             : en:Ending
+00:24:02.482                             : en:Preview
