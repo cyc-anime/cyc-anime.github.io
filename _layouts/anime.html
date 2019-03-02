@@ -111,6 +111,7 @@
 					<pre style="margin-bottom: 0px;">{{ content }}</pre>
 				</details>
 			{% elsif page.r1080 %}
+				{% assign allcontent = content | split: "===" %}
 				<p>
 					File Size: {{ page.size1080 }}<br>
 					Audio Track 1: {{ page.audio1080a }}<br>
@@ -131,10 +132,31 @@
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
 				</p>
-				<details>
-					<summary>MediaInfo</summary>
-					<pre style="margin-bottom: 0px;">{{ content }}</pre>
-				</details>
+				{% if allcontent.size > 2 %}
+					{% for mi in allcontent %}
+						<details>
+							<summary>
+								MediaInfo:
+								{% if forloop.index < 7 %}
+									Season {{ forloop.index }}
+								{% elsif forloop.index == 7 %}
+									Nyanko-sensei to Hajimete no Otsukai
+								{% elsif forloop.index == 8 %}
+									Itsuka Yuki no Hi ni
+								{% endif %}
+							</summary>
+							<pre style="margin-bottom: 0px;">{{ mi }}</pre>
+						</details>
+						{% if forloop.last == false %}
+							<br>
+						{% endif%}
+					{% endfor %}
+				{% else %}
+					<details>
+						<summary>MediaInfo</summary>
+						<pre style="margin-bottom: 0px;">{{ content }}</pre>
+					</details>
+				{% endif %}
 			{% endif %}
 		</section>
 		<br>
