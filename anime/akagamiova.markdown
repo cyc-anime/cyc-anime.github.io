@@ -10,20 +10,20 @@ r1080: true
 
 desc: >-
   A small release I put together since Catar didn't include it in her release because it was never dubbed.
-
+  <br><br>
   This release also takes Beatrice-Raws and GJM subs. My edits include ShiftCut (fixed a subtitle ending a frame too soon), fixed a blur-out in lines 284-285, improved the episode title sign (the fade looked awful because of a black layer), and added a missing font.
 
 status: Complete
 groups: Beatrice-Raws, GJM
 vidinfo: .mkv, h264 10-bit
 
-size1080: 1.45 GB @ 1080p (1920x1080)
-audio1080a: Japanese 2.0ch FLAC (Main Dialogue)
+size1080: 1.45 GB @ 1080p (1920x1080) [Beatrice-Raws]
+audio1080a: Japanese 2.0ch FLAC (Main Dialogue)  [Beatrice-Raws]
 subtitle1: English Dialogue (.ass) [(Modified) GJM]
 
 nyaa1080: https://nyaa.si/view/1129902
 anidex1080: https://anidex.info/torrent/234516
-at1080:
+at1080: https://animetosho.org/view/cyc-akagami-no-shirayuki-hime-ova-bd-1080p.d234516
 ant1080: https://animetorrents.me/torrent-details.php?torid=42424
 ab1080: https://animebytes.tv/torrents.php?id=26533&torrentid=405854
 
