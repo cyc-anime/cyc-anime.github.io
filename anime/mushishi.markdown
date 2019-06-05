@@ -31,6 +31,7 @@ nyaa720: https://nyaa.si/view/1080284
 anidex720: https://anidex.info/torrent/188448
 at720: https://animetosho.org/view/cyc-mushishi-v2-bd-720p-hi10-x264-ac3.n1080284
 ant720: https://animetorrents.me/torrent-details.php?torid=38810
+ab720: https://animebytes.tv/torrents.php?id=504&torrentid=413654
 
 github: https://github.com/cyc-anime/Mushishi
 ---
