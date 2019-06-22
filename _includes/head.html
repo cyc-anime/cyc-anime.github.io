@@ -8,21 +8,37 @@
 	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 	<style>
+		body {
+			color: #ccc;
+			background: #222;
+		}
 		details {
 			padding: 5px;
-			background: #f3f6fa;
-			border: 1px solid #dce6f0;
+			background: #333;
+			border: 1px solid #444;
 			font-weight: bold;
 			border-radius: 2.5px;
+			margin-top: 20px;
 		}
 		summary {
 			cursor: pointer;
+		}
+		pre {
+			white-space:  pre-wrap !important;
+			background: #444 !important;
+			color: #ccc !important;
+			border: 0 !important;
+			margin-top: 7px !important;
+		}
+		a {
+			color: #009dff;
 		}
 		pre p {
 			margin: 0px !important;
 		}
 		table {
 			display: table !important;
+			color: #666;
 		}
 		table th, table td {
 			border: 0px !important;
@@ -30,8 +46,25 @@
 		table > tbody > tr > td > a {
 			color: #eee !important;
 		}
+		.main-content {
+			max-width: 70rem !important;
+		}
 		.main-content h2 {
 			margin-top: 0px !important;
+		}
+		.page-header {
+			padding: 4rem 6rem;
+		}
+		.box {
+			font-size: 15px;
+			padding: 8px;
+			border: 1px solid #555;
+			border-radius: 3px;
+		}
+		.divider {
+			margin: 5px 0px 0px 0px !important;
+			background-color: #555 !important;
+			height: 1px !important;
 		}
 	</style>
 </head>

@@ -24,7 +24,7 @@
 		{% endif %}
 
 		<img src="/images/info.png" alt="info">
-		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
+		<section class="box">
 			<p>
 				Status: {{ page.status }}<br>
 				Affiliated Groups: {{ page.groups }}<br>
@@ -161,7 +161,7 @@
 		</section>
 		<br>
 		<img src="/images/download.png" alt="download">
-		<section style="font-size: 15px; border:1px solid #333; padding: 8px;">
+		<section class="box">
 			{% if page.links %}
 				{% for item in page.links %}
 					{% if forloop.first %}
@@ -169,7 +169,7 @@
 					{% else %}
 						<h3 style="margin: 15px 0px 0px 0px;">{{ item[0] }}</h3>
 					{% endif %}
-					<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+					<hr class="divider">
 					<p style="margin: 5px 0px 0px 0px;">
 						{% if item[forloop.index0] == "OVAs" %}
 							{% for items in item %}
@@ -217,7 +217,7 @@
 				{% endfor %}
 			{% elsif page.r1080 and page.r720 %}
 				<h3 style="margin: 0px;">720p</h3>
-				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<hr class="divider">
 				<p style="margin: 5px 0px 0px 0px;">
 					{% if page.nyaa720 %}
 						<a href="{{ page.nyaa720 }}">Nyaa</a> |
@@ -263,7 +263,7 @@
 				</p>
 			{% elsif page.r720 %}
 				<h3 style="margin: 0px;">720p</h3>
-				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<hr class="divider">
 				<p style="margin: 5px 0px 0px 0px;">
 					{% if page.nyaa720 %}
 						<a href="{{ page.nyaa720 }}">Nyaa</a> |
@@ -286,7 +286,7 @@
 				</p>
 			{% elsif page.r1080 %}
 				<h3 style="margin: 0px;">1080p</h3>
-				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<hr class="divider">
 				<p style="margin: 5px 0px 0px 0px;">
 					{% if page.nyaa1080 %}
 						<a href="{{ page.nyaa1080 }}">Nyaa</a> |
@@ -310,7 +310,7 @@
 			{% endif %}
 			{% if page.github %}
 				<h3 style="margin: 15px 0px 0px 0px;">Subtitles/Attachments</h3>
-				<hr style="margin: 5px 0px 0px 0px; background-color: #333; height: 1px;">
+				<hr class="divider">
 				<p style="margin: 5px 0px 0px 0px;"><a href="{{ page.github }}">Github</a></p>
 			{% endif %}
 		</section>
