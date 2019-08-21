@@ -132,7 +132,7 @@
 						<br>Subtitle Track 4: {{ page.subtitle4 }}
 					{% endif %}
 				</p>
-				{% if allcontent.size > 2 %}
+				{% if allcontent.size > 1 %}
 					{% for mi in allcontent %}
 						<details>
 							<summary>
@@ -147,9 +147,6 @@
 							</summary>
 							<pre style="margin-bottom: 0px;">{{ mi }}</pre>
 						</details>
-						{% if forloop.last == false %}
-							<br>
-						{% endif%}
 					{% endfor %}
 				{% else %}
 					<details>
