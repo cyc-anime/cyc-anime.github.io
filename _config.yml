@@ -12,3 +12,5 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-paginate
+sass:
+  sass_dir: _scss
