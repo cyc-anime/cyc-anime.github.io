@@ -1,0 +1,23 @@
+---
+---
+
+$pagination-color: #eee;
+$pagination-bg: #333;
+$pagination-border: #333;
+
+$pagination-hover-color: #ddd;
+$pagination-hover-bg: #444;
+$pagination-hover-border: #444;
+
+$pagination-active-color: #ddd;
+$pagination-active-bg: #444;
+$pagination-active-border: #444;
+
+$pagination-disabled-color: #eee;
+$pagination-disabled-bg: #333;
+$pagination-disabled-border: #333;
+
+@import "{{ site.theme }}";
+@import "bootstrap/mixins";
+@import "bootstrap/variables";
+@import "bootstrap/pagination";
