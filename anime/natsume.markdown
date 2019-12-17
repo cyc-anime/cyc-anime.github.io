@@ -1,7 +1,7 @@
 ---
 layout: anime
 
-title: "Natsume Yuujinchou: Season 1-6 + OVAs"
+title: "Natsume Yuujinchou: Season 1-6 + OVAs + Movie [COMPLETE]"
 image: https://i.imgur.com/D4KXclJ.png
 mal: 4081
 anidb: 5787
@@ -93,6 +93,14 @@ links: [
     "https://animebytes.tv/torrents.php?id=38015&torrentid=355575",
     "https://animebytes.tv/torrents.php?id=47170&torrentid=355576",
     "Specials/Episodes 12+13"
+  ],
+  [
+    "Movie: Ephemeral Bond (Utsusemi ni Musubu)",
+    "https://nyaa.si/view/1204457",
+    "https://anidex.info/torrent/290729",
+    "https://animetosho.org/view/cyc-natsume-yuujinchou-movie-utsusemi-ni-musubu-bd.d290729",
+    "https://animetorrents.me/torrent-details.php?torid=44491",
+    "https://animebytes.tv/torrents.php?id=60382&torrentid=430373"
   ]
 ]
 
@@ -766,3 +774,97 @@ Menu
 00:00:00.000                             : en:Part A
 00:10:05.021                             : en:Part B
 00:21:00.092                             : en:Ending
+===
+General
+Unique ID                                : 220856318726601769389769334123336416723 (0xA62761383B2D2B3096854272A1A1BDD3)
+Complete name                            : [CyC] Natsume Yuujinchou Movie - Utsusemi ni Musubu (BD 1080p Hi10 x264 FLAC) [9AF44D02].mkv
+Format                                   : Matroska
+Format version                           : Version 4
+File size                                : 6.17 GiB
+Duration                                 : 1 h 44 min
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 8 456 kb/s
+Movie name                               : Ephemeral Bond
+Encoded date                             : UTC 2019-12-16 00:18:24
+Writing application                      : mkvmerge v9.7.1 ('Pandemonium') 64bit
+Writing library                          : libebml v1.3.4 + libmatroska v1.4.5
+Attachments                              : BAARS___.TTF / Brotherhood.ttf / CALIFR.TTF / IwaMinPro-Lt-Madoka_0.ttf / DK Cool Crayon.ttf / Just tell me what regular (Version 2).otf / Holden-Fat.ttf / ArnoPro-Regular.otf / SNsanafonKazariV270.ttf / sharpie-stylie.ttf / CALIST.TTF / Brush Strokes_6.ttf / TragicMarker.otf / Polo Brush.ttf / Gingerline DEMO.otf
+
+Video
+ID                                       : 1
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : High 10@L4.1
+Format settings                          : CABAC / 4 Ref Frames
+Format settings, CABAC                   : Yes
+Format settings, Reference frames        : 4 frames
+Codec ID                                 : V_MPEG4/ISO/AVC
+Duration                                 : 1 h 44 min
+Bit rate                                 : 5 768 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 1 080 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Constant
+Frame rate                               : 23.976 (24000/1001) FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 10 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 0.116
+Stream size                              : 4.21 GiB (68%)
+Writing library                          : x264 core 150 r2833 df79067
+Encoding settings                        : cabac=1 / ref=4 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=9 / psy=1 / psy_rd=0.70:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=8 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=240 / keyint_min=25 / scenecut=40 / intra_refresh=0 / rc=crf / mbtree=0 / crf=16.3 / qcomp=0.60 / qpmin=8 / qpmax=38 / qpstep=4 / ip_ratio=1.40 / pb_ratio=1.30 / aq=1:1.00
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+
+Audio
+ID                                       : 2
+Format                                   : FLAC
+Format/Info                              : Free Lossless Audio Codec
+Codec ID                                 : A_FLAC
+Duration                                 : 1 h 44 min
+Bit rate mode                            : Variable
+Bit rate                                 : 2 673 kb/s
+Channel(s)                               : 6 channels
+Channel layout                           : L R C LFE Ls Rs
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 11.719 FPS (4096 SPF)
+Bit depth                                : 24 bits
+Compression mode                         : Lossless
+Stream size                              : 1.95 GiB (32%)
+Writing library                          : libFLAC 1.2.1 (UTC 2007-09-17)
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Text
+ID                                       : 3
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 1 h 43 min
+Bit rate                                 : 2 743 b/s
+Count of elements                        : 12239
+Compression mode                         : Lossless
+Stream size                              : 2.03 MiB (0%)
+Title                                    : (Modified) Commie + APTA-Scans
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Menu
+00:00:00.000                             : en:Aniplex
+00:00:06.006                             : en:Part A
+00:18:22.601                             : en:Part B
+00:32:18.269                             : en:Part C
+00:43:38.616                             : en:Part D
+00:55:03.717                             : en:Part E
+01:10:36.232                             : en:Part F
+01:18:34.334                             : en:Part G
+01:32:18.783                             : en:Part H
+01:39:11.904                             : en:ED

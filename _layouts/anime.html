@@ -136,6 +136,13 @@
 					{% for mi in allcontent %}
 						<details>
 							<summary>
+								{% comment %}
+									this is not gonna be good if/when I do another long series...
+
+									but I'll cross that bridge if/when it comes to it :^)
+								{% endcomment %}
+
+
 								MediaInfo:
 								{% if forloop.index < 7 %}
 									Season {{ forloop.index }}
@@ -143,6 +150,8 @@
 									Nyanko-sensei to Hajimete no Otsukai
 								{% elsif forloop.index == 8 %}
 									Itsuka Yuki no Hi ni
+								{% elsif forloop.index == 9 %}
+									Movie: Ephemeral Bond (Utsusemi ni Musubu)
 								{% endif %}
 							</summary>
 							<pre style="margin-bottom: 0px;">{{ mi }}</pre>
