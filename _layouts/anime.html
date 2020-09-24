@@ -23,6 +23,11 @@
 			<p>{{ page.issues }}</p>
 		{% endif %}
 
+		{% if page.patches %}
+			<h2>Patches</h2>
+			<p>{{ page.patchinfo }}</p>
+		{% endif %}
+
 		<img src="/images/info.png" alt="info">
 		<section class="box">
 			<p>
@@ -314,6 +319,13 @@
 					{% endif %}
 				</p>
 			{% endif %}
+
+			{% if page.patches %}
+				<h3 style="margin: 15px 0px 0px 0px;">Patches</h3>
+				<hr class="divider">
+				<p style="margin: 5px 0px 0px 0px;"><a href="{{ page.patch }}">Mega</a></p>
+			{% endif %}
+
 			{% if page.github %}
 				<h3 style="margin: 15px 0px 0px 0px;">Subtitles/Attachments</h3>
 				<hr class="divider">

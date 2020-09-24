@@ -18,6 +18,9 @@ desc: >-
   <br><br>
   Anyways, this season again takes audio and video from Beatrice-Raws and subs from SallySubs. However episode 07 had some broken frames, so good guy Scyrous offered to fix them. He produced a rev for that episode. As for subtitles modifications, I did a little more this time. I went through every sign and improved on them. I used shiftcut and additionally looked over every line to make sure the timing is perfect. I then used the QC script to help find any other problems and fix them.
 
+patches: true
+patchinfo: Thanks to Nabull for noticing I somehow forgot the entire subtitle file in S02E06.
+
 status: Complete
 groups: Beatrice-Raws, SallySubs
 vidinfo: .mkv, h264 10-bit
@@ -44,6 +47,8 @@ links: [
     "https://animebytes.tv/torrents.php?id=10474&torrentid=421523"
   ]
 ]
+
+patch: https://mega.nz/file/BOAn0apJ#Kuz-Xr5opm8ilDdfPfmOLmWpdFbLn1_D0JIalf4n8gY
 
 github: https://github.com/cyc-anime/Kimi-to-Boku
 ---

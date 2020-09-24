@@ -13,6 +13,15 @@ desc: >-
   
   Unfortunately, the 720p version didn't make it out from the dual audio grinder alive, so if anyone wants to scale the signs down and release that, feel free. 
 
+patches: true
+patchinfo: >-
+  These v2 patches are all very minor so if you can’t upgrade for whatever reason it’s not a big deal.
+  <ul>
+  <li>Episode 06v2: fixed the preview background blur since it wasn’t showing and added missing font A-OTF TakaHandSTD-B.ttf</li>
+  <li>Episode 07v2: removed the preview subtitles from the signs/songs track</li>
+  <li>Episode 10v2: the OP karaoke had some weird flickering issue. thanks to Wyse for the fix</li>
+  </ul>
+
 status: Complete
 groups: CyC, Kagura, FFF
 vidinfo: .mkv, h264 10-bit
@@ -28,6 +37,8 @@ anidex1080: https://anidex.info/torrent/314922
 at1080: https://animetosho.org/view/cyc-golden-time-bd-1080p-hi10-x264-flac-dual-audio.d314922
 ant1080: https://animetorrents.me/torrent-details.php?torid=48141
 ab1080: https://animebytes.tv/torrents.php?id=17546&torrentid=889029
+
+patch: https://mega.nz/file/VaoAjICY#Jm0I_7rZewpb8JcF_RP3OGd8ERspQpVi7ySehH_bwXA
 
 github: https://github.com/cyc-anime/golden-time
 ---

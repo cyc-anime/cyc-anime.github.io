@@ -12,6 +12,10 @@ desc: >-
   I watched this a few years back and remember it being pretty good. Since there doesn't seem to be any bloated releases yet, here goes.
   <br><br>
   Video and audio source is from philosophy-raws. Subtitles are from Doki, though I've made a few changes. I modified the ending karaoke and <s>obliterated comic sans</s> changed some fonts.
+
+patches: true
+patchinfo: Looks like I totally forgot the subtitles in episode 6. Apply the patch for the subs.
+
 status: Complete
 groups: philosophy-raws, Doki
 vidinfo: .mkv, h264 10-bit
@@ -27,6 +31,8 @@ anidex1080: https://anidex.info/torrent/141035
 at1080: https://animetosho.org/view/cyc-towa-no-quon-bd-1080p-hi10-x264.n1030443
 ant1080: https://animetorrents.me/torrent-details.php?torid=35649
 ab1080: https://animebytes.tv/torrents.php?id=9891&torrentid=363690
+
+patch: https://mega.nz/file/BOAn0apJ#Kuz-Xr5opm8ilDdfPfmOLmWpdFbLn1_D0JIalf4n8gY
 
 github: https://github.com/cyc-anime/Towa-no-Quon
 ---
