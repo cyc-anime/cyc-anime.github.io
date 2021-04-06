@@ -18,7 +18,7 @@ desc: >-
 patches: true
 patchinfo: >-
   <b>v2</b>
-  <br><br>
+  <br>
   This v2 introduces tlacatlc6's subs as an option. These subs are sourced from retail subs, however there's a noticeable difference between his and niizk's. tlacatlc6's seems to be more detailed, but I decided to keep both since it's already there and why not (I know some people prefer fansubs over retail). I've merged signs from both subs so whichever you pick, you'll see the same signs (this includes the signs track naturally). I've also decreased the font size by 10px (60 -> 50) since it seemed too big. Most importantly, I've run both subs through shiftcut fixing some subs bleeding or not cutting right on a frame change. There weren't many for niizk's subs, so if you want to stick with v1, there won't be a huge difference.
   <br><br>
   <b>Episode 02v2</b>
@@ -27,7 +27,7 @@ patchinfo: >-
   <br><br>
   <b>v2.1</b>
   <br>
-  This is a minor patch that fixes a few TS issues. All files have been updated in the DDL links and the patches have been added to the download section.
+  This is a minor patch that fixes a few TS issues.
   <ul>
   <li>Episode 2, 3, 9, 12: Fixed title style not showing properly in tlacatlc6's subtitles</li>
   <li>Episode 14: Added missing fonts</li>
