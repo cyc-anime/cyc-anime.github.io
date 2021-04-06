@@ -14,7 +14,7 @@ desc: >-
   All seasons/ovas takes the video and audio from sergy_krs. Subtitles are mostly taken from tlacatlc6, which is normally sourced from Commie and mooshi, among others. I won't be doing 720p releases since there's no good 720p 10bit rips as far as I could find.
 
 patches: true
-patchifo: Fixed S03E08 missing the last line of the episode
+patchinfo: Fixed S03E08 missing the last line of the episode
 
 status: Complete
 groups: sergey_krs, tlacatlc6, nogrp, mooshi, HorribleSubs, Commie
