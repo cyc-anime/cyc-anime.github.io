@@ -13,6 +13,9 @@ desc: >-
   <br><br>
   All seasons/ovas takes the video and audio from sergy_krs. Subtitles are mostly taken from tlacatlc6, which is normally sourced from Commie and mooshi, among others. I won't be doing 720p releases since there's no good 720p 10bit rips as far as I could find.
 
+patches: true
+patchifo: Fixed S03E08 missing the last line of the episode
+
 status: Complete
 groups: sergey_krs, tlacatlc6, nogrp, mooshi, HorribleSubs, Commie
 vidinfo: .mkv, h264 10-bit
@@ -103,6 +106,8 @@ links: [
     "https://animebytes.tv/torrents.php?id=60382&torrentid=430373"
   ]
 ]
+
+patch: https://mega.nz/file/YX5mDJpC#Yp8QPvs5tEzoP3zXRYv8VlZWQPA-gF0zuARfx41QTtE
 
 github: https://github.com/cyc-anime/Natsume-Yuujinchou
 ---

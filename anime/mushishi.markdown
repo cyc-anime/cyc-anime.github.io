@@ -15,6 +15,24 @@ desc: >-
   <br><br>
   I've also included two of the specials I found on the DVD. I did a quick simple encode of them, and modified funi's subs so you don't have to deal with their god-awful styling.
 
+patches: true
+patchinfo: >-
+  <b>v2</b>
+  <br><br>
+  This v2 introduces tlacatlc6's subs as an option. These subs are sourced from retail subs, however there's a noticeable difference between his and niizk's. tlacatlc6's seems to be more detailed, but I decided to keep both since it's already there and why not (I know some people prefer fansubs over retail). I've merged signs from both subs so whichever you pick, you'll see the same signs (this includes the signs track naturally). I've also decreased the font size by 10px (60 -> 50) since it seemed too big. Most importantly, I've run both subs through shiftcut fixing some subs bleeding or not cutting right on a frame change. There weren't many for niizk's subs, so if you want to stick with v1, there won't be a huge difference.
+  <br><br>
+  <b>Episode 02v2</b>
+  <br><br>
+  It looks like I put niizk subs from ep 01 in ep 02, so if your episode 02 crc is 5A752623, download the patch in the download section.
+  <br><br>
+  <b>v2.1</b>
+  <br><br>
+  This is a minor patch that fixes a few TS issues. All files have been updated in the DDL links and the patches have been added to the download section.
+  <ul>
+  <li>Episode 2, 3, 9, 12: Fixed title style not showing properly in tlacatlc6's subtitles</li>
+  <li>Episode 14: Added missing fonts</li>
+  </ul>
+
 status: Complete
 groups: bxyh, RUELL, niizk, tlacatlc6
 vidinfo: .mkv, h264 10-bit
@@ -32,6 +50,8 @@ anidex720: https://anidex.info/torrent/188448
 at720: https://animetosho.org/view/cyc-mushishi-v2-bd-720p-hi10-x264-ac3.n1080284
 ant720: https://animetorrents.me/torrent-details.php?torid=38810
 ab720: https://animebytes.tv/torrents.php?id=504&torrentid=413654
+
+patch: https://mega.nz/file/pWRFgSIR#K56tO3l-4pDuVeTv-h9UFZN39zctw6C3CDeCS4hsZzQ
 
 github: https://github.com/cyc-anime/Mushishi
 ---
