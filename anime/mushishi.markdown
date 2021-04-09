@@ -45,11 +45,11 @@ subtitle1: English (.ass) [(Modified) niizk Songs/Signs]
 subtitle2: Japanese (.ass) [(Modifed) tlacatlc6 Full English Subtitles]
 subtitle3: Japanese (.ass) [(Modified) niizk Full English Subtitles]
 
-nyaa720: https://nyaa.si/view/1080284
-anidex720: https://anidex.info/torrent/188448
-at720: https://animetosho.org/view/cyc-mushishi-v2-bd-720p-hi10-x264-ac3.n1080284
-ant720: https://animetorrents.me/torrent-details.php?torid=38810
-ab720: https://animebytes.tv/torrents.php?id=504&torrentid=413654
+nyaa720: https://nyaa.si/view/1369287
+anidex720: https://anidex.info/torrent/404125
+at720: https://animetosho.org/view/cyc-mushishi-v2-1-bd-720p-hi10-x264.n1369287
+ant720: https://animetorrents.me/torrent-details.php?torid=52905
+ab720: https://animebytes.tv/torrents.php?id=504&torrentid=935339
 
 patch: https://mega.nz/file/pWRFgSIR#K56tO3l-4pDuVeTv-h9UFZN39zctw6C3CDeCS4hsZzQ
 
