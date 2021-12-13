@@ -1,7 +1,7 @@
 ---
 layout: anime
 
-title: "Natsume Yuujinchou: Season 1-6 + OVAs + Movie [COMPLETE]"
+title: "Natsume Yuujinchou: Season 1-6 + OVAs + 2 Movies [COMPLETE]"
 image: https://i.imgur.com/D4KXclJ.png
 mal: 4081
 anidb: 5787
@@ -11,13 +11,13 @@ r1080: true
 desc: >-
   This is one of my favorite series. It's relaxing, no romance, and very heart warming. Each episode is a peaceful journey that typically ends on a good note. It may seem odd at first, but don't let that scare you away.
   <br><br>
-  All seasons/ovas takes the video and audio from sergy_krs. Subtitles are mostly taken from tlacatlc6, which is normally sourced from Commie and mooshi, among others. I won't be doing 720p releases since there's no good 720p 10bit rips as far as I could find.
+  All seasons/ovas takes the video and audio from sergy_krs (excpt the last movie, Ishi Okoshi to Ayashiki Raihousha). Subtitles are mostly taken from tlacatlc6, which is normally sourced from Commie and mooshi, among others. I won't be doing 720p releases since there's no good 720p 10bit rips as far as I could find.
 
 patches: true
 patchinfo: Fixed S03E08 missing the last line of the episode
 
 status: Complete
-groups: sergey_krs, tlacatlc6, nogrp, mooshi, HorribleSubs, Commie
+groups: sergey_krs, tlacatlc6, nogrp, mooshi, HorribleSubs, Commie, LINK
 vidinfo: .mkv, h264 10-bit
 
 size1080: ~1 GB / Episode @ 1080p (1920x1080) [sergey_krs]
@@ -104,6 +104,14 @@ links: [
     "https://animetosho.org/view/cyc-natsume-yuujinchou-movie-utsusemi-ni-musubu-bd.d290729",
     "https://animetorrents.me/torrent-details.php?torid=44491",
     "https://animebytes.tv/torrents.php?id=60382&torrentid=430373"
+  ],
+  [
+    "The Stone Waker and the Strange Visitor (Ishi Okoshi to Ayashiki Raihousha)",
+    "https://nyaa.si/view/1466724",
+    "https://anidex.info/torrent/451251",
+    "https://animetosho.org/view/cyc-natsume-yuujinchou-ishi-okoshi-ayashiki-raihousha-bd.n1466724",
+    "https://animetorrents.me/torrent-details.php?torid=56722",
+    "https://animebytes.tv/torrents.php?id=71525&torrentid=971873"
   ]
 ]
 
@@ -873,3 +881,86 @@ Menu
 01:18:34.334                             : en:Part G
 01:32:18.783                             : en:Part H
 01:39:11.904                             : en:ED
+===
+General
+Unique ID                                : 199072364046563727003210550988689135690 (0x95C3F154E66FE8254FFAEAE62978584A)
+Complete name                            : [CyC] Natsume Yuujinchou - Ishi Okoshi to Ayashiki Raihousha (BD 1080P 10bit x265 FLAC) [96D266EA].mkv
+Format                                   : Matroska
+Format version                           : Version 4
+File size                                : 1.82 GiB
+Duration                                 : 51 min 33 s
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 5 053 kb/s
+Movie name                               : The Stone Waker and the Strange Visitor
+Encoded date                             : UTC 2021-11-28 22:49:24
+Writing application                      : mkvmerge v55.0.0 ('Waiting For Space') 64-bit
+Writing library                          : libebml v1.4.2 + libmatroska v1.6.4
+Attachments                              : cormorant.infant-light.otf / BAARS___.TTF / Brush Strokes.ttf / FTLTLT.TTF / IgniteTheLight.ttf
+
+Video
+ID                                       : 1
+Format                                   : HEVC
+Format/Info                              : High Efficiency Video Coding
+Format profile                           : Main 10@L5@Main
+Codec ID                                 : V_MPEGH/ISO/HEVC
+Duration                                 : 51 min 33 s
+Bit rate                                 : 3 253 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 1 080 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Constant
+Frame rate                               : 23.976 (24000/1001) FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 10 bits
+Bits/(Pixel*Frame)                       : 0.065
+Stream size                              : 1.17 GiB (64%)
+Title                                    : LINK
+Writing library                          : x265 3.5+1-ce882936d:[Windows][MSVC 1928][64 bit] 10bit
+Encoding settings                        : cpuid=1111039 / frame-threads=5 / numa-pools=32 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=74168 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=6 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / open-gop / min-keyint=1 / keyint=240 / gop-lookahead=0 / bframes=6 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=6 / scenecut=60 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / no-rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / strong-intra-smoothing / max-merge=5 / limit-refs=1 / no-limit-modes / me=2 / subme=2 / merange=92 / temporal-mvp / no-frame-dup / no-hme / weightp / weightb / no-analyze-src-pics / deblock=0:0 / no-sao / no-sao-non-deblock / rd=6 / selective-sao=0 / early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=1.00 / psy-rdoq=1.00 / rd-refine / no-lossless / cbqpoffs=0 / crqpoffs=0 / rc=crf / crf=14.0 / qcomp=0.90 / qpstep=10 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=2 / aq-strength=0.80 / cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=2 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.03 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / scenecut-aware-qp=0conformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0 / no-vbv-live-multi-pass
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Audio
+ID                                       : 3
+Format                                   : FLAC
+Format/Info                              : Free Lossless Audio Codec
+Codec ID                                 : A_FLAC
+Duration                                 : 51 min 33 s
+Bit rate mode                            : Variable
+Bit rate                                 : 1 797 kb/s
+Channel(s)                               : 4 channels
+Channel layout                           : L R C LFE
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 11.719 FPS (4096 SPF)
+Bit depth                                : 24 bits
+Compression mode                         : Lossless
+Stream size                              : 663 MiB (36%)
+Writing library                          : libFLAC 1.3.3 (UTC 2019-08-04)
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Text
+ID                                       : 2
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 51 min 11 s
+Bit rate                                 : 266 b/s
+Count of elements                        : 1079
+Compression mode                         : Lossless
+Stream size                              : 100.0 KiB (0%)
+Title                                    : (Modified) Commie
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Menu
+00:00:00.000                             : en:Title
+00:00:11.011                             : en:Part A
+00:11:51.044                             : en:Part B
+00:23:16.061                             : en:Part C
+00:33:11.072                             : en:Part D
+00:46:16.080                             : en:ED
