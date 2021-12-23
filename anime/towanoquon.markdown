@@ -32,7 +32,7 @@ at1080: https://animetosho.org/view/cyc-towa-no-quon-bd-1080p-hi10-x264.n1030443
 ant1080: https://animetorrents.me/torrent-details.php?torid=35649
 ab1080: https://animebytes.tv/torrents.php?id=9891&torrentid=363690
 
-patch: https://mega.nz/file/BOAn0apJ#Kuz-Xr5opm8ilDdfPfmOLmWpdFbLn1_D0JIalf4n8gY
+patch: https://mega.nz/file/WqoQCDrJ#siPEFucTqMFLMzqHvDp7mHeACdD3N1_kMe1N31sYVSE
 
 github: https://github.com/cyc-anime/Towa-no-Quon
 ---
