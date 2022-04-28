@@ -1,7 +1,6 @@
 title: "[CyC]"
 email: wp.tvshows@gmail.com
-description: >-
-  Cryptic's Anime Projects
+description: Cryptic's Anime Projects
 github_username: xCryptic
 paginate: 5
 
@@ -14,3 +13,7 @@ plugins:
   - jekyll-paginate
 sass:
   sass_dir: _scss
+
+exclude:
+- Gemfile
+- Gemfile.lock

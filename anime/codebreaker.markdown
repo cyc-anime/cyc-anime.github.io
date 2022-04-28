@@ -12,8 +12,6 @@ desc: >-
   This show was my next randomly picked to watch, but I couldn't find anything with amazing bloat like this release. So, I found the parts and put them together. Do note this was my first dual audio release and I put japanese as the default audio instead of english.
   <br><br>
   The video and audio source is from philosophy-raws, who muxed both jp and eng audio. Subtitles are from Hatsuyuki and CBM. CBM's are just a funi rip with slight styling. The OVAs video and audio is from philosophy-raws once again. The first OVA has Hatsuyuki subs, and the last two are Orphan subs. It's important to point out that the OVAs never got dubbed, so it's sub only.
-  <br><br>
-  This release is an older one, so it didn't get uploaded in very many places. For DDL links, visit <a href="https://nanda.to/">nanda.to</a>
 
 issues: >-
   • Episode 07 - Subtitle Track 02 says "[sage-koi] Subtitles" when the are actually Signs/songs. They should also be labeled as Hatsuyuki.

@@ -34,12 +34,14 @@ at720: https://animetosho.org/view/cyc-kyoukai-no-kanata-bd-720p-hi10-x264.n9978
 ant720: https://animetorrents.me/torrent-details.php?torid=33785
 ab720: https://animebytes.tv/torrents.php?id=16555&torrentid=347713
 abs720: https://animebytes.tv/torrents.php?id=18576&torrentid=352248
+abstype720: Special
 
 nyaa1080: https://nyaa.si/view/997890
 at1080: https://animetosho.org/view/cyc-kyoukai-no-kanata-bd-1080p-hi10-x264.n997890
 ant1080: https://animetorrents.me/torrent-details.php?torid=33786
 ab1080: https://animebytes.tv/torrents.php?id=16555&torrentid=343247
 abs1080: https://animebytes.tv/torrents.php?id=18576&torrentid=352249
+abstype1080: Special
 
 github: https://github.com/cyc-anime/Kyoukai-no-Kanata
 ---
