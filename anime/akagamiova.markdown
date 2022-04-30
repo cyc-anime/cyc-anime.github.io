@@ -2,7 +2,7 @@
 layout: anime
 
 title: "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page"
-image: https://s.put.re/DjcUbqX6.jpg
+image: https://i.postimg.cc/HkBY4S7C/mpv-2022-04-30-00-35-18.jpg
 mal: 31483
 anidb: 11524
 r720: false
