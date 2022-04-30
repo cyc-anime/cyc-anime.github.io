@@ -14,7 +14,7 @@ desc: >-
   Video and audio source is from philosophy-raws. Subtitles are from Doki, though I've made a few changes. I modified the ending karaoke and <s>obliterated comic sans</s> changed some fonts.
 
 patches: true
-patchinfo: Looks like I totally forgot the subtitles in episode 6. Apply the patch for the subs.
+patchinfo: The wrong subs were in episdoe 3.
 
 status: Complete
 groups: philosophy-raws, Doki
