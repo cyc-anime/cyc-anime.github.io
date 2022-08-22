@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Telegram"
+date:   2022-08-21 23:45:00 -0500
+categories: general
+---
+Scratch the last post. I forgot to mention here, but I decided to move over to telegram since there were some servers getting nuked on Discord. Since the server is strictly for releases, I didn't see a point in keeping it up so I have moved over to telegram, link below!
+
+[Click here to join](https://t.me/cycanime)
