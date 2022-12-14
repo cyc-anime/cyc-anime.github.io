@@ -31,6 +31,7 @@ at1080: https://animetosho.org/view/cyc-shounen-maid-bd-1080p-hi10-x265-flac-dua
 ant1080: https://animetorrents.me/torrent-details.php?torid=53352
 ab1080: https://animebytes.tv/torrents.php?id=27895&amp;torrentid=938674
 abs1080: https://animebytes.tv/torrents.php?id=35234&amp;torrentid=938677
+abstype1080: Special
 
 github: https://github.com/cyc-anime/Shounen-Maid
 ---

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Changes"
+date:   2022-12-14 16:15:00 -0500
+categories: general
+---
+Hi, hello. I attempted to make this website prettier. I also added another button for sharing anime (hint hint).
+
+Happy Holidys :)

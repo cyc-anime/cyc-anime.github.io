@@ -20,8 +20,8 @@ status: Complete
 groups: sergey_krs, tlacatlc6, nogrp, mooshi, HorribleSubs, Commie, LINK
 vidinfo: .mkv, h264 10-bit
 
-size1080: ~1 GB / Episode @ 1080p (1920x1080) [sergey_krs]
-audio1080a: Japanese 2ch FLAC (Main Dialogue) [sergey_krs]
+size1080: ~1 GB / Episode @ 1080p (1920x1080) [sergey_krs], [LINK]
+audio1080a: Japanese 2ch FLAC (Main Dialogue) [sergey_krs], [LINK]
 subtitle1: English Dialogue (.ass) [various]
 
 # oh man this was fun
