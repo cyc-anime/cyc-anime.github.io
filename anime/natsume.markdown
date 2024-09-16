@@ -2,7 +2,7 @@
 layout: anime
 
 title: "Natsume Yuujinchou: Season 1-6 + OVAs + 2 Movies [COMPLETE]"
-image: https://i.imgur.com/D4KXclJ.png
+image: https://iili.io/d4Qiai7.th.jpg
 mal: 4081
 anidb: 5787
 r720: false
